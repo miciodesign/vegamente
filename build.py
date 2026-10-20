@@ -114,6 +114,10 @@ def build():
         with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
             f.write(html)
         pages.append(path)
+    # file di verifica Google alla root
+    for n in os.listdir(os.path.join(ROOT,"assets")):
+        if n.startswith("google") and n.endswith(".html"):
+            shutil.copy(os.path.join(ROOT,"assets",n), os.path.join(PUBLIC,n))
     # sitemap + robots
     with open(os.path.join(PUBLIC, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
