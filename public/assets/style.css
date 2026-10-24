@@ -114,3 +114,8 @@ section{padding:56px 0}
   .nav a{padding:8px 10px;font-size:.9rem;min-height:40px}
   .logo{font-size:1.35rem}
 }
+
+/* galleria foto */
+.gallery{display:grid;gap:12px;grid-template-columns:repeat(2,1fr);margin:18px 0 26px}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line)}
+@media (max-width:520px){.gallery{grid-template-columns:1fr}}
