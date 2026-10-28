@@ -19,6 +19,9 @@ NAV = [
     ("Cosmetici", "/cosmetici/"),
     ("Casa", "/casa/"),
     ("Animali", "/animali/"),
+    ("Città", "/citta/"),
+    ("News", "/news/"),
+    ("Ricette", "/ricette/"),
     ("Chi siamo", "/chi-siamo/"),
 ]
 
@@ -60,7 +63,7 @@ TEMPLATE = """<!doctype html>
     </div>
     <div>
       <h4>Categorie</h4>
-      <ul><li><a href="/cibo/">Cibo</a></li><li><a href="/moda/">Moda e scarpe</a></li><li><a href="/cosmetici/">Cosmetici</a></li><li><a href="/casa/">Casa e pulizia</a></li><li><a href="/animali/">Animali domestici</a></li></ul>
+      <ul><li><a href="/cibo/">Cibo</a></li><li><a href="/moda/">Moda e scarpe</a></li><li><a href="/cosmetici/">Cosmetici</a></li><li><a href="/casa/">Casa e pulizia</a></li><li><a href="/animali/">Animali domestici</a></li><li><a href="/citta/">Città</a></li><li><a href="/news/">La settimana vegan</a></li><li><a href="/ricette/">Ricette</a></li></ul>
     </div>
     <div>
       <h4>Vegamente</h4>
