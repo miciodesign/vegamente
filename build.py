@@ -59,7 +59,7 @@ TEMPLATE = """<!doctype html>
     <div>
       <a class="logo" href="/" style="font-size:1.2rem">{logo}<span class="word">vega<em>mente</em></span></a>
       <p style="margin-top:10px;max-width:46ch">La guida italiana indipendente a tutto ciò che è vegan: cibo, moda, cosmetici e casa. Recensioni verificate, nessuna sponsorizzazione nascosta. Parte dei ricavi mantiene una <a href="/chi-siamo/#gatti">piccola colonia felina</a>.</p>
-      <p>© {year} Vegamente · P.IVA [DA INSERIRE]</p>
+      <p>© {year} Vegamente</p>
     </div>
     <div>
       <h4>Categorie</h4>
